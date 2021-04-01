@@ -44,6 +44,7 @@ Before you get started, you will need the following:
 2.  Click  **Create new Connection**  to connect to your instance.
     
 3.  Make sure  **Office 365**  is selected. If you are connecting using a Microsoft account other than one you are currently using, click  **Show Advanced**.
+
 ![Logging in with the Plug-in registration tool](https://docs.microsoft.com/en-us/powerapps/developer/data-platform/media/tutorial-write-plug-in-prt-login.png)
     
 4.  Enter your credentials and click  **Login**.
@@ -55,22 +56,26 @@ Before you get started, you will need the following:
    ### Register the assembly
 
 1.  In the  **Register**  drop-down, select  **New Assembly**. 
-    ![Register new assembly][register-new-assembly]
+    
+![Register new assembly][register-new-assembly]
     
 2.  In the  **Register New Assembly**  dialog, select the ellipses (**…**) button and browse to the assembly *Ariv.Dynamics.BingGeocoding.Plugin.dll*  
+    
     ![Register new assembly dialog][register-new-assembly2]
     
 3.  Click  **Register Selected Plug-ins**.
     
 4.  You will see a  **Registered Plug-ins**  confirmation dialog.
-     ![Register new assembly dialog][register-new-assembly-confirmation]
+     
+![Register new assembly dialog][register-new-assembly-confirmation]
      
 5.  Click  **OK**  to close the dialog and close the  **Register New Assembly**  dialog.
 
 ### Register a new step (Create)
 
 1.  Right-click the  **(Assembly) Ariv.Dynamics.BingGeocoding.Plugin**  and select  **Register New Step**.
-    ![Register a new step][register-new-step]
+    
+![Register a new step][register-new-step]
     
 2.  In the  **Register New Step**  dialog, set the following fields:
        
@@ -81,16 +86,18 @@ Before you get started, you will need the following:
 | Event Pipeline Stage of Execution | PostOperation |
 | Execution Mode | Asynchronous |
     
-    ![Register new step create][register-new-step-create]
  3. In the  **Secure Configuration** field, set the following with your own Bing Maps key:
 `{"key":"YourBingKey"}`
 
 4.  Click  **Register New Step**  to complete the registration and close the  **Register New Step**  dialog.
-    
+
+![Register new step create][register-new-step-create]
+
 ### Register a new step (Update)
 
 1.  Right-click the  **(Assembly) Ariv.Dynamics.BingGeocoding.Plugin**  and select  **Register New Step**.   
-    ![Register a new step][register-new-step]
+    
+![Register a new step][register-new-step]
     
 2.  In the  **Register New Step**  dialog, set the following fields:
        
@@ -102,12 +109,12 @@ Before you get started, you will need the following:
 | Event Pipeline Stage of Execution | PostOperation |
 | Execution Mode | Asynchronous |
     
-    ![Register new step create][register-new-step-update]
-    
 3. In the  **Secure Configuration** field, set the following with your own Bing Maps key:
 `{"key":"YourBingKey"}`
 
 4.  Click  **Register New Step**  to complete the registration and close the  **Register New Step**  dialog.
+
+![Register new step create][register-new-step-update]
 
 ### Repeat for each entities
 You can repeate the previous steps, ***Register a new step (Create)*** and ***Register a new step (Update)*** for the following entities:
