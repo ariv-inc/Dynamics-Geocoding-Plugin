@@ -28,13 +28,15 @@ Before you get started, you will need the following:
 
  - Bing maps API key
 
-	You can get a Bing Maps key by going to the Bing Maps Dev Center: 
+	You can get a Bing Maps key by going to the Bing Maps Dev Center:
+	
 	https://www.bingmapsportal.com/
 	
  - Plug-in Registration tool
  
 	In order to register a plugin into Microsoft Dynamics, you will need the Plug-in Registration Tool
 	Here is the documentation on how to get the tool: 
+	
 	https://docs.microsoft.com/en-us/powerapps/developer/data-platform/download-tools-nuget
 
  - Ariv Dynamics Geocoding Plugin
