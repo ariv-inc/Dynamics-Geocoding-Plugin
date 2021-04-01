@@ -1,0 +1,9 @@
+﻿namespace Ariv.Dynamics.BingGeocoding.Plugin
+{
+    public class Coordinates
+    {
+        public double Latitude { get; set; }
+
+        public double Longitude { get; set; }
+    }
+}
