@@ -9,18 +9,15 @@ namespace Ariv.Dynamics.BingGeocoding.Plugin
     public class BingWebClient : WebClient
     {
         private const string BASE_URL = "http://dev.virtualearth.net/REST/v1/Locations";
-        private readonly ITracingService tracingService;
         private readonly string key;
 
-        public BingWebClient(ITracingService tracingService, string key)
+        public BingWebClient(string key)
         {
-            this.tracingService = tracingService;
             this.key = key;
         }
 
         protected override WebRequest GetWebRequest(Uri url)
         {
-            tracingService.Trace("Bing request: {0}", url.ToString());
             HttpWebRequest request = (HttpWebRequest)base.GetWebRequest(url);
             if (request != null)
             {
