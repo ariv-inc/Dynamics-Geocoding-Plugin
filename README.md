@@ -21,6 +21,7 @@
 </p>
 
 ## About The Project
+Dynamics comes with the built in fields *Latitude* and *Longitude*. Unfortunatly, these fields are not populated. This is why we created this plugin that populates these fields with the address provided.
 
 ## Prerequisites
 Before you get started, you will need the following:
