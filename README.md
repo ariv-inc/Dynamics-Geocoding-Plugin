@@ -14,9 +14,9 @@
     Microsoft Dynamics Pluging that uses Bing maps to geocode and populate longitude and latitude fields
     <br />
     <br />
-    <a href="https://github.com/ariv-inc/Dynamics-Geocoding-Plugin/issues">Report Bug</a>
+    <a href="https://github.com/ariv-inc/Dynamics-Geocoding-Plugin/issues/new?assignees=&labels=&template=bug_report.md&title=">Report Bug</a>
     ·
-    <a href="https://github.com/ariv-inc/Dynamics-Geocoding-Plugin/issues">Request Feature</a>
+    <a href="https://github.com/ariv-inc/Dynamics-Geocoding-Plugin/issues/new?assignees=&labels=&template=feature_request.md&title=">Request Feature</a>
   </p>
 </p>
 
