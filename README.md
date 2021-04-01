@@ -86,15 +86,16 @@ Before you get started, you will need the following:
     
 2.  In the  **Register New Step**  dialog, set the following fields:
        
-| Setting | Value |
-|--|--|
-| Message | Create |
-| Primary Entity| account |
-| Event Pipeline Stage of Execution | PostOperation |
-| Execution Mode | Asynchronous |
+    | Setting | Value |
+    |--|--|
+    | Message | Create |
+    | Primary Entity| account |
+    | Event Pipeline Stage of Execution | PostOperation |
+    | Execution Mode | Asynchronous |
     
  3. In the  **Secure Configuration** field, set the following with your own Bing Maps key:
-`{"key":"YourBingKey"}`
+
+    `{"key":"YourBingKey"}`
 
 4.  Click  **Register New Step**  to complete the registration and close the  **Register New Step**  dialog.
 
@@ -108,16 +109,17 @@ Before you get started, you will need the following:
     
 2.  In the  **Register New Step**  dialog, set the following fields:
        
-| Setting | Value |
-|--|--|
-| Message | Update |
-| Primary Entity| account |
-| Filtering Attributes | address1_composite |
-| Event Pipeline Stage of Execution | PostOperation |
-| Execution Mode | Asynchronous |
+    | Setting | Value |
+    |--|--|
+    | Message | Update |
+    | Primary Entity| account |
+    | Filtering Attributes | address1_composite |
+    | Event Pipeline Stage of Execution | PostOperation |
+    | Execution Mode | Asynchronous |
     
-3. In the  **Secure Configuration** field, set the following with your own Bing Maps key:
-`{"key":"YourBingKey"}`
+3.  In the  **Secure Configuration** field, set the following with your own Bing Maps key:
+
+    `{"key":"YourBingKey"}`
 
 4.  Click  **Register New Step**  to complete the registration and close the  **Register New Step**  dialog.
 
