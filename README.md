@@ -23,6 +23,8 @@
 ## About The Project
 Dynamics comes with the built in fields *Latitude* and *Longitude*. Unfortunatly, these fields are not populated. This is why we created this plugin that populates these fields with the address provided.
 
+The pluging uses the field **address1_composite** for the address and populates the fields **address1_latitude** and **address1_longitude**.
+
 ## Prerequisites
 Before you get started, you will need the following:
 
